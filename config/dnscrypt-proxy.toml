@@ -29,8 +29,9 @@
 ##
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
-server_names = ['hgzs-doh', 'sincc','recipes','recipes cn','cf.trli','afwfv']
+server_names = ['hgzs-doh', 'sincc']
 
+# ,'recipes','recipes cn','cf.trli','afwfv'
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
 ## Example with both IPv4 and IPv6:
@@ -955,4 +956,5 @@ direct_cert_fallback = false
     dnssec = true
     nolog = true
     nofilter = true
+
 
